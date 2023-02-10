@@ -1,0 +1,128 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Tribute Page</title>
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">Jeon jungkook</h1>
+      <div id="img-div">
+        <div id="box">
+          <img id="image" src="https://i.pinimg.com/564x/5a/8e/23/5a8e23200bfcb94192c484131d46ec57.jpg">
+          <div id="img-caption">' jeon jungkook ' known as Jungkook, a South Korean singer born on September 1, 1997 in Busan, South Korea.</div>
+        </div>
+        <h4 id="tribute-info">here's some information about him: </h4>
+        <ul>
+          <li> He is a member and vocalist of the South Korean boy band BTS</li>
+          <br><br>
+          <li>Jungkook has released three solo tracks as part of BTS discography</li>
+          <br><br>
+          <li>he became the first South Korean singer to release a song for the FIFA World Cup soundtrack, with "Dreamers",</li>
+          <br><br>
+          <li>Jungkook's tracks as a soloist have also seen success on Spotify charts, with "Dreamers", "Stay Alive", and "Left and Right" all breaking records as the highest-debuting songs</li>
+          <br><br>
+          <li>In 2023, Rolling Stone named him one of the 200 Greatest Singers of All Time, calling him "an extremely gifted singer.</li>
+        </ul>
+        <h5>if intrested to know more <a target="_blank"href="https://en.wikipedia.org/wiki/Jungkook" id="tribute-link">about jungkook</a> .</h5>
+      </div>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body
+{
+  background: #f5f6f7;
+  font-family: Helvetica;
+  margin: 0;
+  text-align: center;
+}
+#title{
+  text-align: center;
+  padding: 1em 0;
+  font-size: 28px;
+  font-weight: 900;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+#img-div{
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  justify-content: center;
+  display: block;
+  padding: 0 -18%;
+}
+#box{
+  background-color: #333;
+  max-width: 100%;
+  width: 80%;
+  margin: 0 auto; 
+  padding-top: 38px;
+  justify-content: center;
+  border-radius: 15px;
+}
+#image{
+  width: 400px;
+  max-width: 100%;
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: 0vw auto 0 auto;
+  border-radius: 10px; 
+}
+#img-caption{
+  width: 50%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 550;
+  color: #eee;
+  margin: 0 auto;
+  padding-top: 25px;
+  line-height: 1.9;
+  padding-bottom: 20px;
+}
+h4{
+  text-align: center;
+  font-size: 15px;
+  font-weight: 800;
+  padding: 28px 15px;
+}
+
+li{
+  margin: 16px 0;
+  display: list-items;
+  text-align: -webkit-match-parent;
+}
+ul{
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.1;
+}
+
+h5{
+  padding-top: 25px;
+  padding-bottom: 12px;
+  letter-spacing: 1px;
+}
+a{
+  color: pink;
+  text-decoration: none;
+}
+a:hover
+{
+  color: #888;
+}
+
+** end of undefined **
+
