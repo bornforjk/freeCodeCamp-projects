@@ -1,0 +1,204 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <header id="header">
+        <div class="border">
+          <img id="header-img" src="https://th.bing.com/th/id/OIP.XPUx6M6Gnr3IYNiXvxyBKgAAAA?pid=ImgDet&rs=1" alt="logo">
+          <nav id="nav-bar">
+            <h5><a class="nav-link" href="#header">Hello</a></h5><br>
+            <h5><a class="nav-link" href="#about">About</a></h5><br>
+            <h5><a class="nav-link" href="#massages">Massages</a></h5><br>
+          </nav>
+        </div>
+        <div class="hero">
+          <section id="hello">
+            <h2>Wellcome</h2>
+            <p>if you would like to sign in</p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+              <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+              <input id="submit" type="submit" name="submit" value="Submit" class="btn">
+            </form>
+          </section>
+          <section id="about">
+            <p class="text">Hello Kitty, also known by her real name Kitty White (キティ・ホワイト, Kiti Howaito), is a fictional character created by Yuko Shimizu, currently designed by Yuko Yamaguchi, and owned by the Japanese company Sanrio.</p><br>
+            <p class="text">Sanrio depicts Hello Kitty as an anthropomorphized white cat with a red bow and no visible mouth.</p><br>
+            <p class="text">According to her backstory, she lives in a London suburb with her family, and is close to her twin sister Mimmy, who is depicted with a yellow bow.</p><br>
+          </section>
+          <section>
+            <iframe 
+src="https://www.youtube.com/embed/DTU2VpTJ0So" id="video">
+            </iframe>
+          </section>
+          <section id="massages">
+            <div class="images">
+              <img src="https://i.pinimg.com/564x/6b/5a/4c/6b5a4c7328701becdf371c3e6f3b453e.jpg" alt="hello kitty">
+              <p class="text2">Be grateful for what you already have while you pursue your goals.
+If you aren’t grateful for what you already have, what makes you think you would be happy with more.</p>
+            </div>
+            <div class="images">
+              <img src="https://i.pinimg.com/564x/0b/3a/bf/0b3abf53ee5291a4d253bd84d732e418.jpg" alt="my melody">
+              <p class="text2">Believe in yourself. You are braver than you think, more talented than you know, and capable of more than you imagine.</p>
+            </div>
+            <div class="images">
+              <img src="https://i.pinimg.com/564x/25/77/29/257729576dbdcce92d048d7e32a15ed8.jpg" alt="cutie">
+              <p class="text2">Keep Going,
+Your hardest times often lead to the greatest moments of your life. Keep going. Tough situations build strong people in the end.</p>
+            </div>
+          </section>
+        </div>
+      </header>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+header{
+  margin: 10px;
+  padding: 30px;
+  padding-top: 33%;
+}
+#nav-bar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 24;
+  left: 60%;
+}
+#header-img {
+  width: auto;
+  object-fit: cover;
+  position: relative;
+  margin-bottom: -70px;
+  top: -50; 
+}
+.nav-link {
+  font-size: 1rem;
+  font-weight: 800;
+  margin-right: 10px;
+  text-align: left;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover{
+  color: #e35;
+}
+.border{
+  width: 100%;
+  height: 120px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+h2{
+  text-align: center;
+  font-weight: 900;
+}
+p{
+  color: #888;
+}
+#hello {
+  text-align: center;
+  border: 1px #eee solid;
+  /* margin-top: -14%; */
+}
+#form {
+  width: auto;
+  height: 20%;
+  margin-top: -30px;
+}
+#email{
+  font-size: 1rem;
+  width: auto;
+  border: 3px #777 solid;
+  font-weight: 600;
+  border-radius: 2px;
+  position: relative;
+  top: 40;
+}
+#submit {
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #e35;
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  text-align: center;
+  position: relative;
+  top: 40;
+  background-color: #fff;
+}
+
+#about{
+  padding: 0 32px;
+  position: relative;
+  top: 90;
+  margin-bottom: 30%;
+}
+.text{
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 1px;
+}
+iframe {
+  width: 100%;
+  height: 50%;
+}
+.images {
+  width: 50%;
+  height: 30%;
+  margin: 0 28%;
+  padding-bottom: 12rem;
+  margin-top: 2rem;
+}
+.images > img{
+  width: 100%;
+}
+.text2{
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 2000px) and (min-width: 800px)
+{
+  #hello{
+    text-align: center;
+    border: 1px #eee solid;
+    margin-top: -16%;
+  }
+}
+
+** end of undefined **
+
