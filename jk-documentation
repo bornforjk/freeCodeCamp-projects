@@ -1,0 +1,189 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Documentation Page</title>
+  </head>
+  <body>
+    <h2></h2>
+    <main id="main-doc">
+      <section class="main-section" id="About">
+        <header><h1>About</h1></header>
+        <code></code>
+        <article>
+          <p>Jeon Jung-kook (Korean: 전정국; born September 1, 1997), known mononymously as Jungkook (stylized as Jung Kook), is a South Korean singer. He is a member and vocalist of the South Korean boy band BTS.</p>
+          <p>Jeon Jung-kook (Korean: 전정국) was born on September 1, 1997, in Busan, South Korea. His family consists of his parents and an elder brother.[5][4] He attended Baekyang Elementary and Middle School in Busan. When he became a trainee, he transferred to Singu Middle School in Seoul.</p>
+            <p>Jungkook initially had dreams of becoming a badminton player when he was younger, but after seeing G-Dragon perform "Heartbreaker" on television, it influenced him to want to become a singer</p>
+        </article>
+      </section>
+      <section class="main-section" id="The_start">
+        <header><h1>The start</h1></header>
+        <code></code>
+        <article>
+          <p></p>
+          <p></p>
+          <ul>
+          <li>2011-  Jungkook auditioned for the South Korean talent show Superstar K during its auditions in Daegu. Though he was not selected, he received casting offers from seven entertainment companies. He eventually chose to become a trainee under Big Hit Entertainment after seeing RM</li><br>
+          <li>2013-  Jungkook made his debut as a member of BTS with the release of the single 2 Cool 4 Skool.[15] Under BTS</li><br>
+          <li>2018- as the introduction to the third part of BTS' "Love Yourself" series<br>.Produced by DJ Swivel, the song charted at number five on the Billboard. Its full studio version was included on BTS' Love Yourself: Answer compilation album</li><br>
+          <li>The third solo, "My Time", off the band's 2020 studio album Map of the Soul: 7, is an R&B song about forgoing teenage experiences because of his career, and charted at number 84 on the US Billboard Hot 100.<br> "Euphoria" and "My Time" are the first and second longest-charting solo tracks among K-pop singers on the Billboard chart, having spent a record 90 and 85 weeks respectively on the ranking.</li>
+        </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Songs">
+        <header><h1>Songs</h1></header>
+        <code></code>
+        <article>
+          <p>Here's a list of all of jungkook's solo songs:</p>
+          <ul>
+          <li>2016: "Begin"</li>
+          <li>2018: "Euphoria"</li>
+          <li>2019: "Decalcomania"</li>
+          <li>2020: "My Time"</li>
+          <li>2020: "Still With You"</li>
+          </ul>
+          <p>Here’s 7 Song Covers By Jungkook:</p>
+          <ul>
+            <li>2U</li>
+            <li>Paper Hearts</li>
+            <li>Nothing Like Us</li>
+            <li>Rainism</li>
+            <li>We Don’t Talk Anymore</li>
+            <li>falling</li>
+            <li> Lost Stars</li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Awards">
+        <header><h1>Awards</h1></header>
+        <code></code>
+        <article>
+            <p>In the past years, Jungkook has made himself well known around the world not only as a BTS member but also as an individual artist with so much talent.</p>
+            <p>And so because of his wide popularity, he recently earned a title at Planeta Awards 2020, plus his solo track "Still With You" continues to enter charts including Genuis Korea's K-R&B Chart.</p>
+            <ul>
+              <li>2019- "Global Instagrammer" in MTV Millennial Awards</li>
+              <li>2022- "Song of Summer" in MTV Video Music Awards</li>
+              <li>2022- "The Music Video of 2022" and "The Collaboration Song of 2022" in People's Choice Awards</li>
+              <li>2023- "Best Music Video" in iHeartRadio Music Awards</li>
+            </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Social_media">
+        <header><h1>Social media</h1></header>
+        <code></code>
+        <article>
+          <p>Instagram: @jungkook.97</p>
+          <p>Twitter: @BTS_twt</p>
+        </article>
+      </section>
+      <nav id="navbar">
+        <header>Jk Documentation</header>
+        <a class="nav-link" href="#Social_media">Social media</a>
+        <a class="nav-link" href="#Awards">Awards</a>
+        <a class="nav-link" href="#Songs">Songs</a>
+        <a class="nav-link" href="#The_start">The start</a> 
+        <a class="nav-link" href="#About">About</a> 
+      </nav>
+
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+html, body{
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: white;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+h1{
+  color: black;
+  text-align: left;
+  font-weight: 500;
+  margin: 10px;
+}
+#navbar{
+  min-width: 290px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: #777;
+}
+#main-doc header{
+  text-align: left;
+  margin: 0px;
+}
+ul{
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+li{
+  position: relative;
+  width: 100%;
+}
+a{
+  color: #555;
+  display: block;
+  padding: 20px 35px;
+  text-decoration: none;
+  cursor: pointer;
+  border-top: 2px solid;
+  border-color: rgba(0, 22, 22, 0.4);
+  top: 20px;
+  position: relative;
+}
+#main-doc{
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+li{
+  margin: 15px 0 0 20px;
+}
+#navbar header{
+  color: #555;
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 23px;
+}
+
+@media (max-width: 900px;) and (min-width: 330px;){
+  #navbar{
+    width: 100%;
+    border-right: solid;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+  }
+  #main-doc{
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+
+}
+
+** end of undefined **
+
